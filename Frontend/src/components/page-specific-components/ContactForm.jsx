@@ -11,10 +11,14 @@ const ContactForm = () => {
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("formData"));
     console.log(data);
-    if(data){
-       setFormData(data);
+    if (data) {
+      setFormData(data);
     }
-  }, [])
+  }, []);
+
+  useEffect(() => {
+    localStorage.clear();
+  }, []);
 
   const handleChange = (e, id) => {
     setFormData((prev) => {
