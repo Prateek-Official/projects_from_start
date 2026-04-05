@@ -18,7 +18,7 @@ const DiceHomePage = () => {
         height: "100vh",
       }}
     >
-      <div className="w-[1190px] flex h-135">
+      <div className="w-297.5 flex h-135">
         <img src="/DICES_IMAGE.png" alt="Dice Homepage Image" />
 
         <div className="w-full flex flex-col justify-center items-end">

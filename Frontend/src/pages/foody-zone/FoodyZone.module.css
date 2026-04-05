@@ -1,0 +1,63 @@
+/* .container{
+    height: 100%;
+    width: 100%
+} */
+
+.header{
+    background-color: #414040;
+    height: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    color: #FFFFFF;
+    /* border: 1px solid white; */
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.heading h1 span{
+    color: #ff0a0a;
+}
+
+.nav{
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 14px;
+    /* margin-top: 14px; */
+}
+
+.nav button{
+    color: #FFFFFF;
+    background-color: #FF4343;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav button:hover{
+    background-color:#ff0202;
+}
+
+.main img{
+    /* height: calc(100vh - 230px);
+    background-image: url("FOODY_ZONE_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: calc(100vh - 230px);
+    object-fit: cover;
+    display: relative;
+}
