@@ -26,4 +26,11 @@ export const DICE_NUMBERS = [
   { id: 5, num: 5 },
   { id: 6, num: 6 },
 ];
+
+export const MENU_TYPES = [
+  { id: "all", name: "All" },
+  { id: "breakfast", name: "Breakfast" },
+  { id: "Breakfast", name: "Lunch" },
+  { id: "Dinner", name: "Dinner" },
+];
 // ["Menu", "Location", "About", "Contact"];
