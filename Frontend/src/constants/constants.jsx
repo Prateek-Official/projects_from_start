@@ -34,3 +34,10 @@ export const MENU_TYPES = [
   { id: "Dinner", name: "Dinner" },
 ];
 // ["Menu", "Location", "About", "Contact"];
+
+export const FORM_INPUTS = [
+  { id: 1, inputType: "name", type: "text"},
+  { id: 2, inputType: "email", type: "email"},
+  { id: 3, inputType: "phone", type: "text"},
+  { id: 4, inputType: "department", type:"text"}
+]
